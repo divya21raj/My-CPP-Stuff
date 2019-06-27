@@ -33,3 +33,5 @@
 
 *.bin
 *.ipch
+
+.vscode

@@ -32,5 +32,7 @@
         "tuple": "cpp",
         "typeinfo": "cpp",
         "utility": "cpp"
-    }
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "/"
 }
