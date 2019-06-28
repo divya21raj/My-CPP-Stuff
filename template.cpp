@@ -4,29 +4,26 @@ using namespace std;
 
 #define ll long long int
 
-ll placeCows(vector<ll> &v){
-    
+ll solve(vector<ll> &v){
+    return v.size();
 }
 
 int main() {
-	ll t, n, c; 
+	ll t, n; 
 	ll in;
 	vector<ll> v, ans;
 	cin>>t;
 	
 	for(ll i=0; i<t; i++){
-        cin>>n>>c;
+        cin>>n;
         v.clear();
         for(ll j = 0; j<n; j++){
             cin>>in;
             v.push_back(in);
         }
         
-        ans.push_back(placeCows(v));
+        cout<<solve(v)<<endl;
 	}
 	
-	for(ll k=0; k<ans.size(); k++){
-	    cout<<ans[k]<<"\n";
-	}
 	return 0;
 }
