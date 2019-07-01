@@ -16,6 +16,7 @@ int main() {
 	
 	for(ll i=0; i<t; i++){
         cin>>n;
+        
         v.clear();
         for(ll j = 0; j<n; j++){
             cin>>in;
