@@ -28,7 +28,7 @@ int main(){
     vector<string> ans = permutations(s, 0);
 
     cout<<ans.size()<<"\n";
-    for(auto s: ans) cout<<s<<" ";
+    for(auto s: ans) cout<<s<<endl;
 
     return 0;
 }
